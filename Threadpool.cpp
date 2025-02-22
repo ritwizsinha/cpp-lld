@@ -38,8 +38,8 @@ class ThreadPool {
                     auto task = move(tasks.front());
                     tasks.pop();
                     cout << "Size of the queue " << tasks.size() << endl; 
-                    task();
                     lock.unlock();
+                    task();
                 }
             }));
         }
@@ -87,3 +87,12 @@ int main() {
 
 
 }
+
+/*
+Things Learnt:
+1. Futures
+2. Packaged Task
+3. Bind
+4. Forward
+
+*/
