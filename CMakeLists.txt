@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Set the project name
-project(DeliverySystem)
+project(SearchBuilder)
 
 # Add the executable
-add_executable(DeliverySystem delivery_system.cpp)
+add_executable(SearchBuilder search_builder.cpp)
