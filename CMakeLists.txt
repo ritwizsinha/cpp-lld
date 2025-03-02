@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Set the project name
-project(Concurrency)
+project(DeliverySystem)
 
 # Add the executable
-add_executable(Concurrency barrier.cpp)
+add_executable(DeliverySystem delivery_system.cpp)
