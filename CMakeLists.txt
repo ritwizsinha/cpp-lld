@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Set the project name
-project(SearchBuilder)
+project(InvertedSearch)
 
 # Add the executable
-add_executable(SearchBuilder search_builder.cpp)
+add_executable(InvertedSearch inverted_search.cpp)
