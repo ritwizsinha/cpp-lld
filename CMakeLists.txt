@@ -7,7 +7,7 @@ set(CMAKE_BUILD_TYPE Debug)  # Default to Debug if not specified
 set(CMAKE_CXX_FLAGS_DEBUG "-g -O0")
 
 # Set the project name
-project(TicTacToe)
+project(WebCrawler)
 
 # Add the executable
-add_executable(TicTacToe tic_tac_toe.cpp)
+add_executable(Webcrawler Webcrawler.cpp)
