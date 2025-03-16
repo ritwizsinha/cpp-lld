@@ -11,6 +11,11 @@ Entity:
 3. Locations: x, y
 4. Users: name, Location
 5. OrderManager (time, dishname, cost)
+
+
+
+1. The strategies can cache the values if needed, and can have a invalidate cache for some measure.
+2. We can use some sort of iterator to get the order data.
     ----> OrderAnalytics
 */
 #include <iostream>

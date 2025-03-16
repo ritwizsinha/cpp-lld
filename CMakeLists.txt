@@ -7,7 +7,7 @@ set(CMAKE_BUILD_TYPE Debug)  # Default to Debug if not specified
 set(CMAKE_CXX_FLAGS_DEBUG "-g -O0")
 
 # Set the project name
-project(WebCrawler)
+project(spotify)
 
 # Add the executable
-add_executable(Webcrawler Webcrawler.cpp)
+add_executable(spotify  coinbase/spotify.cpp)
